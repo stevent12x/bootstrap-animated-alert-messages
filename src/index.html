@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Alert Boxes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.2.1/font-awesome-animation.min.css">
+</head>
+<body>
+    <section>
+        <div class="square_box square_three"></div>
+        <div class="square_box square_four"></div>
+        <div class="container mt-5">
+            <div class="row">
+
+                <div class="col-sm-12">
+                    <div class="alert alert-simple fade alert-success alert-dismissible text-left font__family-montserrat font__size-16 font__weight-light brk-library-rendered rendered show" role="alert" data-brk-library="component__alert">
+                        <button type="button" class="close font__size-18" data-dismiss="alert">
+                            <span aria-hidden="true">
+                                <a href="http://www.cakecounter.com/" target="blank">
+                                    <i class="fa fa-times greencross"></i>
+                                </a>
+                            </span>
+                            <span class="sr-only">close</span>
+                        </button>
+                        <i class="fa fa-check-circle far faa-tada animated"></i>
+                        <strong class="font__weight-semibold">well done!</strong> you've successfully read this far.
+                    </div>
+                </div>
+
+                <div class="col-sm-12">
+                    <div class="alert alert-simple fade alert-info alert-dismissible text-left font__family-montserrat font__siz-16 font__weight-light brk-library-rendered rendered show" role="alert" data-brk-library="component__alert">
+                        <button type="button" class="close font__size-18" data-dimiss="alert">
+                            <span aria-hidden="true">
+                                <i class="fa fa-times blue-cross"></i>
+                            </span>
+                            <span class="sr-only">close</span>
+                        </button>
+                        <i class="start-icon fa fa-info-circle faa-shake animated"></i>
+                        <strong class="font__weight-semibold">heads up!</strong> this alert needs your attention, but it's not <span style="font-style: italic">that</span> important.
+                    </div>
+                </div>
+
+                <div class="col-sm-12">
+                    <div class="alert alert-simple fade alert-warning alert-dismissible text-left font__family-montserrat font__siz-16 font__weight-light brk-library-rendered rendered show" role="alert" data-brk-library="component__alert">
+                        <button type="button" class="close font__size-18" data-dimiss="alert">
+                            <span aria-hidden="true">
+                                <i class="fa fa-times warning"></i>
+                            </span>
+                            <span class="sr-only">close</span>
+                        </button>
+                        <i class="start-icon fa fa-exclamation-triangle faa-flash animated"></i>
+                        <strong class="font__weight-semibold">warning. </strong>this is one that you should most likely pay close attention to.
+                    </div>
+                </div>
+
+                <div class="col-sm-12">
+                    <div class="alert alert-simple fade alert-danger alert-dismissible text-left font__family-montserrat font__siz-16 font__weight-light brk-library-rendered rendered show" role="alert" data-brk-library="component__alert">
+                        <button type="button" class="close font__size-18" data-dimiss="alert">
+                            <span aria-hidden="true">
+                                <i class="fa fa-times danger"></i>
+                            </span>
+                            <span class="sr-only">close</span>
+                        </button>
+                        <i class="start-icon fa fa-times-circle faa-pulse animated"></i>
+                        <strong class="font__weight-semibold">uh oh! </strong>change a few things and try submitting again why don't you?
+                    </div>
+                </div>
+
+                <div class="col-sm-12">
+                    <div class="alert alert-simple fade alert-primary alert-dismissible text-left font__family-montserrat font__siz-16 font__weight-light brk-library-rendered rendered show" library="component__alert" role="alert">
+                        <button type="button" class="close font__size-18" data-dimiss="alert">
+                            <span aria-hidden="true">
+                                <i class="fa fa-times alert-primary"></i>
+                            </span>
+                            <span class="sr-only">close</span>
+                        </button>
+                        <i class="start-icon fa fa-thumbs-up faa-bounce animated"></i>
+                        <strong class="font__weight-semibold">well done! </strong>you successfully read through the page.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</body>
+</html>
